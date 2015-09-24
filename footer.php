@@ -13,7 +13,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<!-- <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'sketchchildtheme' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'Sketch child theme' ), 'WordPress' ); ?></a> -->
-            <a href="<?php echo esc_url( __( 'https://github.com/otherness-space/sketch-child-theme', 'sketchchildtheme' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'sketchchildtheme' ), '<div class="site-footer-devanagari">दुक</div>' ); ?>
+            <a href="<?php echo esc_url( __( 'https://github.com/otherness-space/sketch-child-theme', 'sketchchildtheme' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'Sketch child theme' ), '<div class="site-footer-devanagari">दुक</div>' ); ?>
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'sketchchildtheme' ), 'sketchchildtheme', '<a href="https://github.com/otherness-space/sketch-child-theme" rel="designer"><div class="site-footer-devanagari">दुक</div></a>' );      ?>
 
