@@ -8,7 +8,7 @@ Template: sketch
 Version: 0.0.0.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags:
+Tags: child theme
 Text Domain: sketch-theme-child
 */
 
@@ -84,6 +84,7 @@ Text Domain: sketch-theme-child
     font-weight: normal;
     font-style: italic;
     margin: 0;
+    text-transform: none;
     position: relative;
     z-index: 2;
 }
