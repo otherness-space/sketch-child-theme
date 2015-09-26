@@ -91,6 +91,11 @@ Text Domain: sketch-theme-child
 
 /** end Header */
 
+/* =Menu */
+
+.main-navigation {
+  text-transform: none;
+}
 
 /** Footer */
 
