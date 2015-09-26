@@ -76,10 +76,16 @@ Text Domain: sketch-theme-child
 
 /** Header */
 
+.site-title {
+    font: normal 900 2.5em Courier;
+    text-transform: none;
+
+}
+
 .site-description {
     font-size: 1em;
     line-height: 1;
-    display: inline-block;
+    display: block;
     letter-spacing: 3px;
     font-weight: normal;
     font-style: italic;
