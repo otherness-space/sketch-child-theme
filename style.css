@@ -5,10 +5,10 @@ Description: Child theme created for Sketch theme.
 Author: Rob Goodfellow
 Author URI: http://makemaeasurelearn.com
 Template: sketch
-Version: 0.0.0.0.2
+Version: 0.0.0.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: child theme
+Tags: responsive-layout
 Text Domain: sketch-theme-child
 */
 
@@ -76,13 +76,41 @@ Text Domain: sketch-theme-child
 
 /** Header */
 
+
+.site-header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 0;
+}
+
 .site-title {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    align-self: flex-start;
+    padding-bottom: 0;
     font: normal 900 2.5em Courier;
     text-transform: none;
-
 }
 
 .site-description {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    align-self: flex-start;
     font-size: 1em;
     line-height: 1;
     display: block;
@@ -95,12 +123,29 @@ Text Domain: sketch-theme-child
     z-index: 2;
 }
 
+.site-navigation {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    align-items: baseline;
+    align-self: flex-end;
+}
+
 /** end Header */
 
 /* =Menu */
 
 .main-navigation {
-  text-transform: none;
+
+    text-transform: none;
+}
+
+.main-navigation ul li {
+    padding-bottom: 0;
+    vertical-align: bottom;
 }
 
 /** Footer */
@@ -161,3 +206,12 @@ body {
 
 
 /** end textual styles */
+
+@media screen and ( min-width: 1281px ) {
+
+    .main-navigation ul li {
+        margin-top:10px;
+        padding-bottom: 0;
+        vertical-align: bottom;
+    }
+}
