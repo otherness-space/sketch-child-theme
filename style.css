@@ -150,9 +150,9 @@ Text Domain: sketch-theme-child
     display: -webkit-flex;
     display: -moz-flex;
     display: flex;
-    -webkit-flex-flow: row wrap;
-    -moz-flex-flow: row wrap;
-    flex-flow: row wrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    flex-flow: row nowrap;
     text-transform: none;
 }
 
