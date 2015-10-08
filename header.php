@@ -22,16 +22,16 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'sketch' ); ?></a>
     <!-- Begin whole header -->
-    <header id="masthead" class="site-header flex100" role="banner">
+    <header id="masthead" class="flex100 flex-box site-header" role="banner">
         <!-- Begin left box -->
-        <div class="site-branding flex-box left-flex-box">
+        <div class="flex-box left-flex-box site-branding">
 			<?php if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
-			<h1 class="site-title flex-box flex100"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description flex-box flex100"><?php bloginfo( 'description' ); ?></h2>
+			<h1 class="flex-box flex100 site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2 class="flex-box flex100 site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div>
         <!-- End left box -->
         <!-- Begin right box -->
-		<nav id="site-navigation" class="main-navigation flex-box right-flex-box" role="navigation">
+		<nav id="site-navigation" class=" flex-box right-flex-box main-navigation" role="navigation">
 			<button class="menu-toggle"><?php _e( 'Menu', 'sketch' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
