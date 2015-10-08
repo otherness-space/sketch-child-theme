@@ -31,8 +31,8 @@
 		</div>
         <!-- End left box -->
         <!-- Begin right box -->
-		<nav id="site-navigation" class=" flex-box right-flex-box main-navigation" role="navigation">
-			<button class="menu-toggle"><?php _e( 'Menu', 'sketch' ); ?></button>
+		<nav id="site-navigation" class="flex-box right-flex-box main-navigation" role="navigation">
+			<button class="flex-box flex100 menu-toggle"><?php _e( 'Menu', 'sketch' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
         <!-- End right box -->
