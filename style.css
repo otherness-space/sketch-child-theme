@@ -39,7 +39,36 @@ Text Domain: sketch-theme-child
 /** Positioning */
 
 
-/** Box model */
+/** Box models */
+
+    /*
+    *
+    * flex-box-row-wrap
+    *
+    */
+.flex-box {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.flex100 {
+    -webkit-flex: 1 100%;
+    -moz-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.left-flex-box, .right-flex-box {
+    -webkit-flex: 1 50%;
+    -moz-flex: 1 50%;
+    -ms-flex: 1 50%;
+    flex: 1 50%;
+}
+
 
     /*
     *
@@ -78,49 +107,29 @@ Text Domain: sketch-theme-child
 
 
 .site-header {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -moz-flex-flow: row wrap;
-    flex-flow: row wrap;
     align-items: baseline;
-    justify-content: space-between;
-    max-width: 1200px;
+    /*justify-content: space-between;*/
     padding: 0;
 }
 
+.site-branding {
+    float: none;
+}
+
 .site-title {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -moz-flex-flow: row wrap;
-    flex-flow: row wrap;
-    align-self: flex-start;
     padding-bottom: 0;
     font: normal 900 2.5em Courier;
     text-transform: none;
 }
 
 .site-description {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -moz-flex-flow: row wrap;
-    flex-flow: row wrap;
-    align-self: flex-start;
     font-size: 1em;
     line-height: 1;
-    display: block;
     letter-spacing: 3px;
     font-weight: normal;
     font-style: italic;
     margin: 0;
     text-transform: none;
-    position: relative;
-    z-index: 2;
 }
 
 .site-navigation {
@@ -206,6 +215,19 @@ body {
 
 
 /** end textual styles */
+
+@media screen and (min-width: 35em) {
+  .site-branding {
+
+  }
+  .has-site-logo .site-title {
+
+  }
+}
+@media screen and ( min-width: 700px) {
+    .menu-toggle {
+    display: none;
+}
 
 @media screen and ( min-width: 1281px ) {
 
