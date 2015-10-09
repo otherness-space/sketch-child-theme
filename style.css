@@ -530,10 +530,10 @@ body {
 /* This ensures most tablet-sized devices will see the toggle menu */
 @media screen and ( min-width: 50rem ) {
     .site-header, .site-branding, .main-navigation {
-        -webkit-flex: 1 100%;
+        /*-webkit-flex: 1 100%;
         -moz-flex: 1 100%;
         -ms-flex: 1 100%;
-        flex: 1 100%;
+        flex: 1 100%;*/
     }
     .site-branding, .site-title, .site-description .main-navigation {
         justify-content: flex-start;
