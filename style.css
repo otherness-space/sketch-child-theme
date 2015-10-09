@@ -550,7 +550,7 @@ body {
   }
 }
 /* This ensures most tablet-sized devices will see the toggle menu */
-@media screen and ( min-width: 62.5rem ) {
+/*@media screen and ( min-width: 62.5rem ) {
     .main-navigation {
         -webkit-flex: 1 100%;
         -moz-flex: 1 100%;
@@ -558,7 +558,7 @@ body {
         flex: 1 100%;
     }
 
-}
+}*/
 
 @media screen and ( min-width: 1281px ) {
     .menu-toggle {
