@@ -529,6 +529,12 @@ body {
 }
 /* This ensures most tablet-sized devices will see the toggle menu */
 @media screen and ( min-width: 50rem ) {
+    .site-branding, .main-navigation {
+        -webkit-flex: 1 100%;
+        -moz-flex: 1 100%;
+        -ms-flex: 1 100%;
+        flex: 1 100%;
+    }
   .menu-toggle {
     display: none;
   }
@@ -550,7 +556,7 @@ body {
     font-size: 0.8125em;
     line-height: 2.09231em;
     clear: none;
-    float: right;
+    float: none;
     max-width: 50%;
     text-align: right;
   }
