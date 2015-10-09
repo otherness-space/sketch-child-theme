@@ -75,7 +75,7 @@ Text Domain: sketch-theme-child
 
 
 /** Header */
-.main-navigation {
+.site-title {
     font: normal 900 2.5em Courier;
     text-transform: none;
 }
