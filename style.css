@@ -83,7 +83,7 @@ Text Domain: sketch-theme-child
 
 /** Header */
 .site-title {
-    font: normal 900 2.5em/1 Courier;
+    font: normal 900 2.5em Courier;
     text-transform: none;
 }
 
