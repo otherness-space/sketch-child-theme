@@ -62,6 +62,13 @@ Text Domain: sketch-theme-child
     flex: 1 50%;
 }
 
+.site-title, .site-description {
+    -webkit-flex: 1 100%;
+    -moz-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
+}
+
 /** Colors and typography */
 
     /*
