@@ -82,23 +82,63 @@ Text Domain: sketch-theme-child
 
 
 /** Header */
+
+.site-header {
+    position: relative;
+    padding: 0 0 24px;
+    border-bottom: 3px solid #eeeeee;
+    margin: 0 0 27px;
+    z-index: auto;
+}
+.site-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 14px;
+  width: auto;
+  max-height: 70px;
+
+}
+.custom-header {
+	display: block;
+    border-radius: 5px;
+	margin: 0 auto;
+	margin-bottom: 27px;
+}
+
+.site-branding {
+    position: relative;
+    max-width: 60%;
+    margin-bottom: 14px;
+    clear: none;
+    float: none;
+    z-index: auto;
+}
 .site-title {
     font: normal 900 2.5em/1 Courier;
     letter-spacing: 3px;
     text-transform: none;
     margin: 0;
     position: relative;
+    z-index: auto;
+}
+
+.site-title a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.has-site-logo .site-title {
+	vertical-align: middle;
 }
 
 .site-description {
     display: block;
     position: relative;
-    z-index: 2;
     margin: 0;
     font: italic 1em/1 Arial;
     letter-spacing: 3px;
-    text-transform: none;
-    position: relative;
+    text-transform: none;    
+    z-index: auto;
 }
 
 /** end Header */
