@@ -46,7 +46,14 @@ Text Domain: sketch-theme-child
     * terminal box style
     *
     */
-
+.flex-box {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -moz-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
 
 /** Colors and typography */
 
@@ -76,12 +83,11 @@ Text Domain: sketch-theme-child
 
 /** Header */
 .site-title {
-    font: normal 900 2.5em Courier;
+    font: normal 900 2.5em/1 Courier;
     text-transform: none;
 }
 
 .site-description {
-    display: block;
     position: relative;
     z-index: 2;
     margin: 0;
