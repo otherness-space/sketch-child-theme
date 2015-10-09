@@ -557,12 +557,18 @@ body {
         -ms-flex: 1 100%;
         flex: 1 100%;
     }
-    .site-branding, .site-title, .site-description .main-navigation {
-        /*justify-content: flex-start;*/
-        /*z-index: 0;*/
+
+    .menu-toggle {
+      display: none;
     }
+
+}
+
+@media screen and ( min-width: 1281px ) {
   .menu-toggle {
-    display: none;
+      display: -webkit-inline-flex;
+      display: -moz-inline-flex;
+      display: inline-flex;
   }
   .site-logo {
   	max-height: 100px;
@@ -582,9 +588,9 @@ body {
     font-size: 0.8125em;
     line-height: 2.09231em;
     clear: none;
-    float: none;
-    /*max-width: 50%;*/
-    text-align: center;
+    float: right;
+    max-width: 50%;
+    text-align: right;
   }
   .main-navigation ul:first-child {
 	  display: block;
@@ -622,7 +628,7 @@ body {
     left: 0;
     text-align: left;
     visibility: hidden;
-    z-index: 99999;
+    z-index: 0;
   }
   .main-navigation ul ul li {
     border-bottom: 1px solid #eeeeee;
