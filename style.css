@@ -246,7 +246,7 @@ Text Domain: sketch-theme-child
 
 .toggled .menu-toggle {
     margin: 0 5px 0 5px;
-    border-color: #f68060;
+    /*border-color: #f68060;*/
     color: #f68060;
 }
 
