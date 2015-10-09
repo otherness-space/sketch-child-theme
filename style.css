@@ -225,6 +225,8 @@ Text Domain: sketch-theme-child
     -webkit-flex-flow: row wrap;
     -moz-flex-flow: row wrap;
     flex-flow: row wrap;
+    justify-content: space-between;
+    vertical-align: bottom;
     /*margin: 0 5px 0 5px;*/
 }
 
@@ -243,6 +245,7 @@ Text Domain: sketch-theme-child
 }
 
 .toggled .menu-toggle {
+    padding: 0 5px 0 5px;
     border-color: #f68060;
     color: #f68060;
 }
