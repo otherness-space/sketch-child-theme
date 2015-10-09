@@ -549,7 +549,7 @@ body {
         flex: 1 100%;*/
     }
     .site-branding, .site-title, .site-description .main-navigation {
-        justify-content: flex-start;
+        /*justify-content: flex-start;*/
         z-index: 0;
     }
   .menu-toggle {
