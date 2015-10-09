@@ -5,10 +5,10 @@ Description: Child theme created for Sketch theme.
 Author: Rob Goodfellow
 Author URI: http://makemaeasurelearn.com
 Template: sketch
-Version: 0.0.0.0.3
+Version: 0.0.0.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: responsive-layout
+Tags:
 Text Domain: sketch-theme-child
 */
 
@@ -39,36 +39,7 @@ Text Domain: sketch-theme-child
 /** Positioning */
 
 
-/** Box models */
-
-    /*
-    *
-    * flex-box-row-wrap
-    *
-    */
-.flex-box {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -moz-flex-flow: row wrap;
-    flex-flow: row wrap;
-}
-
-.flex100 {
-    -webkit-flex: 1 100%;
-    -moz-flex: 1 100%;
-    -ms-flex: 1 100%;
-    flex: 1 100%;
-}
-
-.left-flex-box, .right-flex-box {
-    -webkit-flex: 1 50%;
-    -moz-flex: 1 50%;
-    -ms-flex: 1 50%;
-    flex: 1 50%;
-}
-
+/** Box model */
 
     /*
     *
@@ -105,71 +76,20 @@ Text Domain: sketch-theme-child
 
 /** Header */
 
-
-.site-header {
-    align-items: baseline;
-    /*justify-content: space-between;*/
-    padding: 0;
-}
-
-.site-branding {
-    float: none;
-}
-
-.site-title {
-    padding-bottom: 0;
-    font: normal 900 2.5em Courier;
-    text-transform: none;
-}
-
 .site-description {
     font-size: 1em;
     line-height: 1;
+    display: inline-block;
     letter-spacing: 3px;
     font-weight: normal;
     font-style: italic;
     margin: 0;
-    text-transform: none;
-}
-
-.site-navigation {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -moz-flex-flow: row wrap;
-    flex-flow: row wrap;
-    align-items: baseline;
+    position: relative;
+    z-index: 2;
 }
 
 /** end Header */
 
-/* =Menu */
-
-.main-navigation {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-flex-flow: row nowrap;
-    -moz-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    text-transform: none;
-}
-
-.main-navigation ul li {
-    padding-bottom: 0;
-    vertical-align: bottom;
-}
-/* Small menu */
-.menu-toggle,
-.main-navigation.toggled .nav-menu {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-flex-flow: row nowrap;
-    -moz-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-}
 
 /** Footer */
 
@@ -229,25 +149,3 @@ body {
 
 
 /** end textual styles */
-
-@media screen and (min-width: 35em) {
-  .site-branding {
-
-  }
-  .has-site-logo .site-title {
-
-  }
-}
-@media screen and ( min-width: 700px) {
-    .menu-toggle {
-    display: none;
-}
-
-@media screen and ( min-width: 1281px ) {
-
-    .main-navigation ul li {
-        margin-top:10px;
-        padding-bottom: 0;
-        vertical-align: bottom;
-    }
-}
