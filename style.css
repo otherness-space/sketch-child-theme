@@ -117,7 +117,7 @@ Text Domain: sketch-theme-child
     margin: 0 0 27px;
     justify-content: space-between;
     align-items: baseline;
-    z-index: 0;
+    /*z-index: 0;*/
 }
 .site-logo {
   display: inline-block;
@@ -139,7 +139,7 @@ Text Domain: sketch-theme-child
     margin-bottom: 14px;
     clear: none;
     float: none;
-    z-index: 0;
+    /*z-index: 0;*/
 }
 .site-title {
     font: normal 900 2.5em/1 Courier;
@@ -147,7 +147,7 @@ Text Domain: sketch-theme-child
     text-transform: none;
     margin: 0;
     position: relative;
-    z-index: auto;
+    /*z-index: auto;*/
 }
 
 .site-title a {
@@ -165,7 +165,7 @@ Text Domain: sketch-theme-child
     font: italic 1em/1 Arial;
     letter-spacing: 3px;
     text-transform: none;
-    z-index: auto;
+    /*z-index: auto;*/
 }
 
 /** end Header */
@@ -179,7 +179,7 @@ Text Domain: sketch-theme-child
     font-weight: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
-    z-index: 0;
+    /*z-index: 0;*/
 }
 
 /*.menu-main-menu-container {
@@ -551,7 +551,7 @@ body {
     }
     .site-branding, .site-title, .site-description .main-navigation {
         /*justify-content: flex-start;*/
-        z-index: 0;
+        /*z-index: 0;*/
     }
   .menu-toggle {
     display: none;
