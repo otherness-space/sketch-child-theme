@@ -226,7 +226,6 @@ Text Domain: sketch-theme-child
     -moz-flex-flow: row wrap;
     flex-flow: row wrap;
     justify-content: space-between;
-    vertical-align: bottom;
     /*margin: 0 5px 0 5px;*/
 }
 
@@ -552,11 +551,11 @@ body {
 }
 /* This ensures most tablet-sized devices will see the toggle menu */
 @media screen and ( min-width: 62.5rem ) {
-    .site-header, .site-branding, .main-navigation {
-        /*-webkit-flex: 1 100%;
+    .main-navigation {
+        -webkit-flex: 1 100%;
         -moz-flex: 1 100%;
         -ms-flex: 1 100%;
-        flex: 1 100%;*/
+        flex: 1 100%;
     }
     .site-branding, .site-title, .site-description .main-navigation {
         /*justify-content: flex-start;*/
