@@ -88,6 +88,7 @@ Text Domain: sketch-theme-child
     padding: 0 0 24px;
     border-bottom: 3px solid #eeeeee;
     margin: 0 0 27px;
+    align-items: baseline;
     z-index: auto;
 }
 .site-logo {
