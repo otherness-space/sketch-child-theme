@@ -535,6 +535,9 @@ body {
         -ms-flex: 1 100%;
         flex: 1 100%;
     }
+    .site-branding, .site-title, .site-description .main-navigation {
+        justify-content: flex-start;
+    }
   .menu-toggle {
     display: none;
   }
@@ -557,8 +560,8 @@ body {
     line-height: 2.09231em;
     clear: none;
     float: none;
-    max-width: 50%;
-    text-align: right;
+    /*max-width: 50%;*/
+    text-align: center;
   }
   .main-navigation ul:first-child {
 	  display: block;
