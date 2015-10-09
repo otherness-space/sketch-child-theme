@@ -84,7 +84,10 @@ Text Domain: sketch-theme-child
 /** Header */
 .site-title {
     font: normal 900 2.5em/1 Courier;
+    letter-spacing: 3px;
     text-transform: none;
+    margin: 0;
+    position: relative;
 }
 
 .site-description {
@@ -92,12 +95,10 @@ Text Domain: sketch-theme-child
     position: relative;
     z-index: 2;
     margin: 0;
-    font-style: italic;
-    font-size: 1em;
-    line-height: 1;
+    font: italic 1em/1 Arial;
     letter-spacing: 3px;
     text-transform: none;
-
+    position: relative;
 }
 
 /** end Header */
