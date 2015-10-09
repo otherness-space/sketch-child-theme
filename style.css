@@ -558,18 +558,12 @@ body {
         flex: 1 100%;
     }
 
-    .menu-toggle {
-      display: none;
-    }
-
 }
 
 @media screen and ( min-width: 1281px ) {
-  .menu-toggle {
-      display: -webkit-inline-flex;
-      display: -moz-inline-flex;
-      display: inline-flex;
-  }
+    .menu-toggle {
+      display: none;
+    }
   .site-logo {
   	max-height: 100px;
   }
