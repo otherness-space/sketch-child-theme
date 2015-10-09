@@ -137,12 +137,94 @@ Text Domain: sketch-theme-child
     margin: 0;
     font: italic 1em/1 Arial;
     letter-spacing: 3px;
-    text-transform: none;    
+    text-transform: none;
     z-index: auto;
 }
 
 /** end Header */
 
+/** Menu */
+
+.main-navigation {
+    display: block;
+    position: relative;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: auto;
+}
+
+.has-site-logo .main-navigation {
+    height: 70px;
+}
+.has-site-logo .main-navigation.toggled {
+    height: auto;
+}
+.main-navigation ul {
+    padding-left: 0;
+    margin: 0;
+    clear: both;
+    list-style: none;
+}
+.main-navigation li {
+    display: block;
+    position: relative;
+}
+.main-navigation li:hover > a {
+    color: #f68060;
+}
+.main-navigation a {
+    display: block;
+    padding: 13px 0 14px;
+    border-bottom: 1px solid #eeeeee;
+    text-decoration: none;
+    color: #999999;
+}
+.main-navigation ul:first-child > li:last-of-type a {
+    border-bottom: 0;
+}
+
+/** End Menu */
+
+/* Small menu */
+.menu-toggle,
+.main-navigation.toggled .nav-menu {
+    display: block;
+}
+
+.menu-toggle {
+    position: relative;
+    padding: 5px 7px;
+    border: 1px solid #eeeeee;
+    clear: none;
+    float: right;
+}
+.menu-toggle:before {
+    vertical-align: text-bottom;
+    margin-right: 5px;
+    font-size: 16px;
+    content: "\f419";
+}
+
+.toggled .menu-toggle {
+    border-color: #f68060;
+    color: #f68060;
+}
+
+.main-navigation ul:first-child {
+    display: none;
+}
+.main-navigation ul ul li a {
+	padding-left: 14px;
+}
+.main-navigation ul ul ul li a {
+	padding-left: 28px;
+}
+.main-navigation ul ul ul ul li a {
+	padding-left: 42px;
+}
+
+/** End Small Menu */
 
 /** Footer */
 
