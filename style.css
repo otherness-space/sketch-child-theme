@@ -117,7 +117,7 @@ Text Domain: sketch-theme-child
     margin: 0 0 27px;
     justify-content: space-between;
     align-items: baseline;
-    z-index: auto;
+    z-index: 0;
 }
 .site-logo {
   display: inline-block;
