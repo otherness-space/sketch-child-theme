@@ -59,9 +59,9 @@ Text Domain: sketch-theme-child
     display: -webkit-inline-flex;
     display: -moz-inline-flex;
     display: inline-flex;
-    -webkit-flex-flow: column wrap;
-    -moz-flex-flow: column wrap;
-    flex-flow: column wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
     -webkit-flex: 1 50%;
     -moz-flex: 1 50%;
     -ms-flex: 1 50%;
