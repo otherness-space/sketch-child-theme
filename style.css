@@ -85,7 +85,9 @@ Text Domain: sketch-theme-child
     position: relative;
     z-index: 2;
     margin: 0;
-    font: italic 1em/1;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1;
     letter-spacing: 3px;
     text-transform: none;
 
