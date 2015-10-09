@@ -46,7 +46,7 @@ Text Domain: sketch-theme-child
     * terminal box style
     *
     */
-.site-header, .custom-header, .site-branding, .main-navigation .site-title, .site-description, .main-navigation a, .main-navigation li  {
+.site-header, .custom-header, .site-branding, .main-navigation, .site-title, .site-description, .main-navigation a, .main-navigation li  {
     display: -webkit-flex;
     display: -moz-flex;
     display: flex;
