@@ -175,6 +175,7 @@ Text Domain: sketch-theme-child
 .main-navigation {
     position: relative;
     justify-content: flex-end;
+    height: 100%;
     font-weight: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
