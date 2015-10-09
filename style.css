@@ -75,12 +75,15 @@ Text Domain: sketch-theme-child
 
 
 /** Header */
+.main-navigation {
+    text-transform: none;
+}
 
 .site-description {
     display: inline-block;
     position: relative;
     z-index: 2;
-    margin: 0;    
+    margin: 0;
     font-size: 1em;
     line-height: 1;
     letter-spacing: 3px;
