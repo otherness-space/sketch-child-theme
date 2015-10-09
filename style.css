@@ -46,7 +46,7 @@ Text Domain: sketch-theme-child
     * terminal box style
     *
     */
-.site-header, .custom-header, .site-branding, .site-title, .site-description, .main-navigation, .main-navigation a, .main-navigation li  {
+.site-header, .custom-header, .site-title, .site-description, .main-navigation a, .main-navigation li  {
     display: -webkit-flex;
     display: -moz-flex;
     display: flex;
@@ -56,11 +56,24 @@ Text Domain: sketch-theme-child
 }
 
 .site-branding, .main-navigation {
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: inline-flex;
+    -webkit-flex-flow: column wrap;
+    -moz-flex-flow: column wrap;
+    flex-flow: column wrap;
     -webkit-flex: 1 50%;
     -moz-flex: 1 50%;
     -ms-flex: 1 50%;
     flex: 1 50%;
 }
+
+/*.site-branding, .main-navigation {
+    -webkit-flex: 1 50%;
+    -moz-flex: 1 50%;
+    -ms-flex: 1 50%;
+    flex: 1 50%;
+}*/
 
 .site-title, .site-description {
     -webkit-flex: 1 100%;
@@ -537,6 +550,7 @@ body {
     }
     .site-branding, .site-title, .site-description .main-navigation {
         justify-content: flex-start;
+        z-index: 0;
     }
   .menu-toggle {
     display: none;
