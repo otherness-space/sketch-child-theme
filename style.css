@@ -76,19 +76,17 @@ Text Domain: sketch-theme-child
 
 /** Header */
 .main-navigation {
+    font: normal 900 2.5em Courier;
     text-transform: none;
 }
 
 .site-description {
-    display: inline-block;
+    display: block;
     position: relative;
     z-index: 2;
     margin: 0;
-    font-size: 1em;
-    line-height: 1;
+    font: italic normal 1em/1;
     letter-spacing: 3px;
-    font-weight: normal;
-    font-style: italic;
     text-transform: none;
 
 }
