@@ -46,7 +46,7 @@ Text Domain: sketch-theme-child
     * terminal box style
     *
     */
-.flex-box {
+.site-header, .custom-header, .site-branding, .site-title, .site-description, .main-navigation, .main-navigation a, .main-navigation li {
         display: -webkit-flex;
         display: -moz-flex;
         display: flex;
@@ -99,7 +99,6 @@ Text Domain: sketch-theme-child
 
 }
 .custom-header {
-	display: block;
     border-radius: 5px;
 	margin: 0 auto;
 	margin-bottom: 27px;
@@ -132,7 +131,6 @@ Text Domain: sketch-theme-child
 }
 
 .site-description {
-    display: block;
     position: relative;
     margin: 0;
     font: italic 1em/1 Arial;
@@ -146,7 +144,6 @@ Text Domain: sketch-theme-child
 /** Menu */
 
 .main-navigation {
-    display: block;
     position: relative;
     font-weight: normal;
     letter-spacing: 2px;
@@ -167,14 +164,12 @@ Text Domain: sketch-theme-child
     list-style: none;
 }
 .main-navigation li {
-    display: block;
     position: relative;
 }
 .main-navigation li:hover > a {
     color: #f68060;
 }
 .main-navigation a {
-    display: block;
     padding: 13px 0 14px;
     border-bottom: 1px solid #eeeeee;
     text-decoration: none;
