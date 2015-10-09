@@ -167,9 +167,9 @@ Text Domain: sketch-theme-child
     z-index: auto;
 }
 
-.menu-main-menu-container {
+/*.menu-main-menu-container {
     right: 0;
-}
+}*/
 
 .has-site-logo .main-navigation {
     height: 70px;
