@@ -12,6 +12,38 @@ Tags: child theme
 Text Domain: sketch-theme-child
 */
 
+/**
+* Property ordering
+    * Display
+        *
+    * Positioning
+        *
+    * Box model
+        *
+    * Colors and typography
+        *
+    * Other
+        *
+    * TRBL/trouble: Top/Right/Bottom/Left should be the order
+    * Corner specifiers: top-left-, top-right, bottom-right, bottom-left
+*/
+
+/** Display */
+
+
+/** Positioning */
+
+
+/** Box model */
+
+    /*
+    *
+    * terminal box style
+    *
+    */
+
+
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
