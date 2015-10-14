@@ -2242,14 +2242,14 @@ div.sharedaddy div.sd-block {
     font: italic 1em/1 Arial;
     letter-spacing: 3px;
     text-transform: none;
-    /*border: 1px solid red;*/
+    border: 1px solid clear;
 }
 
 .site-title {
     font: normal 900 2.5em/1 Courier;
     letter-spacing: 3px;
     text-transform: none;
-    /*border: 1px solid blue;*/
+    border: 1px solid clear;
     clear: none;
 }
 
