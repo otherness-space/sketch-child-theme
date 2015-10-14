@@ -2209,22 +2209,22 @@ div.sharedaddy div.sd-block {
 /** Header */
 
 
-.site-header, .site-description, .site-title {
+.site-header, .site-description, .site-title, .site-branding {
     display: -webkit-flex;
     display: -moz-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
     -moz-flex-flow: row wrap;
     flex-flow: row wrap;
+    -webkit-flex: 1 100%;
+    -moz-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
     position: relative;
     z-index: 0;
 }
 
 .site-description, .site-title {
-    -webkit-flex: 1 100%;
-    -moz-flex: 1 100%;
-    -ms-flex: 1 100%;
-    flex: 1 100%;
     margin: 0;
 }
 
@@ -2252,6 +2252,21 @@ div.sharedaddy div.sd-block {
     border: 1px solid blue;
     clear: none;
 }
+
+.site-branding {
+    margin-bottom: 14px;
+    max-width: none;
+    clear: none;
+    float: none;
+}
+/*
+.site-branding {
+    -webkit-flex: 1 50%;
+    -moz-flex: 1 50%;
+    -ms-flex: 1 50%;
+    flex: 1 50%;
+}
+*/
 
 /** End Header */
 
