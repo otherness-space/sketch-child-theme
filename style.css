@@ -2207,7 +2207,7 @@ div.sharedaddy div.sd-block {
 
 /** Header */
 
-.site-description, .site-title {
+.site-header, .site-description, .site-title {
     display: -webkit-flex;
     display: -moz-flex;
     display: flex;
@@ -2219,9 +2219,18 @@ div.sharedaddy div.sd-block {
     -ms-flex: 1 100%;
     flex: 1 100%;
     position: relative;
+    z-index: 0;
+}
+
+.site-description, .site-title {
     margin: 0;
 }
 
+.site-header {
+    padding: 0 0 24px;
+    border-bottom: 3px solid #eeeeee;
+    margin: 0 0 27px;
+}
 
 .site-description {
     font: italic 1em/1 Arial;
@@ -2234,7 +2243,6 @@ div.sharedaddy div.sd-block {
     letter-spacing: 3px;
     text-transform: none;
     clear: none;
-    z-index: 0;
 }
 
 /** End Header */
@@ -2274,6 +2282,7 @@ div.sharedaddy div.sd-block {
 
 /** end footer */
 
+/* —————————————————————placeholder landmark———————————————————————————————— */
 /* —————————————————————placeholder landmark———————————————————————————————— */
 
 /* Media Queries */
