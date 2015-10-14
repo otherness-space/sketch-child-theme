@@ -2207,8 +2207,7 @@ div.sharedaddy div.sd-block {
 
 /** Header */
 
-
-.site-description {
+.site-description, .site-title {
     display: -webkit-flex;
     display: -moz-flex;
     display: flex;
@@ -2221,9 +2220,21 @@ div.sharedaddy div.sd-block {
     flex: 1 100%;
     position: relative;
     margin: 0;
+}
+
+
+.site-description {
     font: italic 1em/1 Arial;
     letter-spacing: 3px;
     text-transform: none;
+}
+
+.site-title {
+    font: normal 900 2.5em/1 Courier;
+    letter-spacing: 3px;
+    text-transform: none;
+    clear: none;
+    z-index: 0;
 }
 
 /** End Header */
