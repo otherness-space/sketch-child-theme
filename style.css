@@ -2207,6 +2207,24 @@ div.sharedaddy div.sd-block {
 
 /** Header */
 
+.site-description {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-flex: 1 100%;
+    -moz-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
+    position: relative;
+    margin: 0;
+    font: italic 1em/1 Arial;
+    letter-spacing: 3px;
+    text-transform: none;
+}
+
 /** End Header */
 
 /* —————————————————————placeholder landmark———————————————————————————————— */
