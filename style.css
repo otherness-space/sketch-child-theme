@@ -2203,6 +2203,41 @@ div.sharedaddy div.sd-block {
   right: 14px;
 }
 
+/* —————————————————————placeholder landmark———————————————————————————————— */
+
+/** Footer */
+
+.site-footer {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px 0 0;
+    border-top: 3px solid #eeeeee;
+    margin: 24px 0 0;
+    font-size: 0.8125rem;
+    line-height: 2.09231rem;
+    letter-spacing: 1px;
+    color: #999999;    
+    text-align: center;
+    text-transform: none;
+    clear: both;
+    white-space: nowrap;
+}
+
+.site-footer-devanagari {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.65rem;
+    color: #999999;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    clear: both;
+    white-space: nowrap;
+}
+
+/** end footer */
+
 /* Media Queries */
 @media screen and (max-width: 50em) {
 	.jetpack-portfolio-shortcode .portfolio-entry {
