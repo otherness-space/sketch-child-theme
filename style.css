@@ -2230,20 +2230,24 @@ div.sharedaddy div.sd-block {
     justify-content: space-between;
     align-items: baseline;
     padding: 0 0 24px;
-    border-bottom: 3px solid #eeeeee;
+    border: 1px 1px 3px 1px solid black;
+    /*border-bottom: 3px solid #eeeeee;*/
     margin: 0 0 27px;
+    width: auto;
 }
 
 .site-description {
     font: italic 1em/1 Arial;
     letter-spacing: 3px;
     text-transform: none;
+    border: 1px solid red;
 }
 
 .site-title {
     font: normal 900 2.5em/1 Courier;
     letter-spacing: 3px;
     text-transform: none;
+    border: 1px solid blue;
     clear: none;
 }
 
