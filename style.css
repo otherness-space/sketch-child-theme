@@ -2209,22 +2209,22 @@ div.sharedaddy div.sd-block {
 /** Header */
 
 
-.site-header, .site-description, .site-title, .site-branding {
+.site-header, .site-description, .site-title, .site-branding, .main-navigation {
     display: -webkit-flex;
     display: -moz-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
     -moz-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-flex: 1 100%;
-    -moz-flex: 1 100%;
-    -ms-flex: 1 100%;
-    flex: 1 100%;
     position: relative;
     z-index: 0;
 }
 
-.site-description, .site-title {
+.site-header, .site-description, .site-title {
+    -webkit-flex: 1 100%;
+    -moz-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
     margin: 0;
 }
 
@@ -2239,7 +2239,7 @@ div.sharedaddy div.sd-block {
 }
 
 .site-description {
-    font: italic 1em/1 Arial;
+    font: italic 900 1em/1 Courier;
     letter-spacing: 3px;
     text-transform: none;
     border: 1px solid clear;
@@ -2260,7 +2260,7 @@ div.sharedaddy div.sd-block {
     float: none;
 }
 
-.site-branding {
+.site-branding, .main-navigation {
     -webkit-flex: 1 50%;
     -moz-flex: 1 50%;
     -ms-flex: 1 50%;
@@ -2275,6 +2275,14 @@ div.sharedaddy div.sd-block {
 /** End Header */
 
 /* —————————————————————placeholder landmark———————————————————————————————— */
+
+/** Menu */
+
+.main-navigation {
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 
 /** Footer */
 
@@ -2579,7 +2587,7 @@ div.sharedaddy div.sd-block {
     font-size: 0.8125em;
     line-height: 2.09231em;
     clear: none;
-    float: right;
+    float: none;
     max-width: 50%;
     text-align: right;
   }
