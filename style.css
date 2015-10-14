@@ -2207,9 +2207,9 @@ div.sharedaddy div.sd-block {
 
 /** Header */
 
-
-
 /** End Header */
+
+/* —————————————————————placeholder landmark———————————————————————————————— */
 
 /** Footer */
 
@@ -2243,6 +2243,8 @@ div.sharedaddy div.sd-block {
 }
 
 /** end footer */
+
+/* —————————————————————placeholder landmark———————————————————————————————— */
 
 /* Media Queries */
 @media screen and (max-width: 50em) {
