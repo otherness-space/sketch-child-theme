@@ -2230,7 +2230,7 @@ div.sharedaddy div.sd-block {
     justify-content: space-between;
     align-items: baseline;
     padding: 0 0 24px;
-    border: 1px 1px 3px 1px solid black;
+    border: 3px solid black;
     /*border-bottom: 3px solid #eeeeee;*/
     margin: 0 0 27px;
     width: 100%;
