@@ -2259,14 +2259,18 @@ div.sharedaddy div.sd-block {
     clear: none;
     float: none;
 }
-/*
+
 .site-branding {
     -webkit-flex: 1 50%;
     -moz-flex: 1 50%;
     -ms-flex: 1 50%;
     flex: 1 50%;
 }
-*/
+
+.site-branding {
+    left: 0;
+}
+
 
 /** End Header */
 
