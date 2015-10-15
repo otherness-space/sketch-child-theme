@@ -2282,6 +2282,7 @@ div.sharedaddy div.sd-block {
     font-weight: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
+    right: 0;
 }
 
 /** Footer */
@@ -2590,6 +2591,7 @@ div.sharedaddy div.sd-block {
     float: none;
     max-width: 50%;
     text-align: right;
+    left: 0;
   }
   .main-navigation ul:first-child {
 	  display: block;
