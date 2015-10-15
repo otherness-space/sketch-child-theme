@@ -2367,6 +2367,12 @@ div.sharedaddy div.sd-block {
 	.jetpack-portfolio-shortcode .portfolio-entry {
 		width: 100% !important;
 	}
+    .site-branding, .main-navigation {
+        -webkit-flex: 1 50%;
+        -moz-flex: 1 50%;
+        -ms-flex: 1 50%;
+        flex: 1 50%;
+    }
 }
 @media screen and (min-width: 75em) {
   .site {
@@ -2606,13 +2612,17 @@ div.sharedaddy div.sd-block {
   .has-site-logo .site-title {
 	max-width: 60%;
   }
-  .site-branding, .main-navigation {
-         -webkit-flex: 1 100%;
-         -moz-flex: 1 100%;
-         -ms-flex: 1 100%;
-         flex: 1 100%;
-         left: 0;
-   }
+
+}
+
+@@media ( min-wdith: 400px) {
+    .site-branding, .main-navigation {
+           -webkit-flex: 1 100%;
+           -moz-flex: 1 100%;
+           -ms-flex: 1 100%;
+           flex: 1 100%;
+           left: 0;
+     }
 }
 /* This ensures most tablet-sized devices will see the toggle menu */
 @media screen and ( min-width: 1281px ) {
