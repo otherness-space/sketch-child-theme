@@ -2367,12 +2367,6 @@ div.sharedaddy div.sd-block {
 	.jetpack-portfolio-shortcode .portfolio-entry {
 		width: 100% !important;
 	}
-    .site-branding, .main-navigation {
-        -webkit-flex: 1 50%;
-        -moz-flex: 1 50%;
-        -ms-flex: 1 50%;
-        flex: 1 50%;
-    }
 }
 @media screen and (min-width: 75em) {
   .site {
@@ -2382,6 +2376,12 @@ div.sharedaddy div.sd-block {
   }
   .has-site-logo .site {
 	padding-top: 27px;
+  }
+  .site-branding, .main-navigation {
+      -webkit-flex: 1 50%;
+      -moz-flex: 1 50%;
+      -ms-flex: 1 50%;
+      flex: 1 50%;
   }
 
 }
@@ -2604,10 +2604,10 @@ div.sharedaddy div.sd-block {
 @media screen and (min-width: 35em) {
   .site-branding {
   	max-width: none;
-    -webkit-flex: 1 50%;
-    -moz-flex: 1 50%;
-    -ms-flex: 1 50%;
-    flex: 1 50%;
+    -webkit-flex: 1 100%;
+    -moz-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
   }
   .has-site-logo .site-title {
 	max-width: 60%;
@@ -2648,7 +2648,7 @@ div.sharedaddy div.sd-block {
     line-height: 2.09231em;
     clear: none;
     float: none;
-    max-width: 50%;
+    max-width: none;
     text-align: right;
     right: 0;
   }
