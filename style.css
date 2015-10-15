@@ -2377,8 +2377,12 @@ div.sharedaddy div.sd-block {
   .has-site-logo .site {
 	padding-top: 27px;
   }
-  .main-navigation {
-      left: 0;
+ .site-branding, .main-navigation {
+        -webkit-flex: 1 100%;
+        -moz-flex: 1 100%;
+        -ms-flex: 1 100%;
+        flex: 1 100%;
+        left: 0;
   }
 }
 @media screen and (min-width: 60em) {
