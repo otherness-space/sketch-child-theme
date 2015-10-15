@@ -2377,13 +2377,7 @@ div.sharedaddy div.sd-block {
   .has-site-logo .site {
 	padding-top: 27px;
   }
- .site-branding, .main-navigation {
-        -webkit-flex: 1 100%;
-        -moz-flex: 1 100%;
-        -ms-flex: 1 100%;
-        flex: 1 100%;
-        left: 0;
-  }
+
 }
 @media screen and (min-width: 60em) {
 
@@ -2612,6 +2606,13 @@ div.sharedaddy div.sd-block {
   .has-site-logo .site-title {
 	max-width: 60%;
   }
+  .site-branding, .main-navigation {
+         -webkit-flex: 1 100%;
+         -moz-flex: 1 100%;
+         -ms-flex: 1 100%;
+         flex: 1 100%;
+         left: 0;
+   }
 }
 /* This ensures most tablet-sized devices will see the toggle menu */
 @media screen and ( min-width: 1281px ) {
