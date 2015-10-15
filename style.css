@@ -2608,7 +2608,7 @@ div.sharedaddy div.sd-block {
 
 }
 
-@@media screen and ( min-wdith: 400px) {
+@media screen and ( min-wdith: 400px) {
     .site-branding, .main-navigation {
            -webkit-flex: 1 100%;
            -moz-flex: 1 100%;
