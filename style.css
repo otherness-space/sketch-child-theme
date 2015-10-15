@@ -2377,13 +2377,6 @@ div.sharedaddy div.sd-block {
   .has-site-logo .site {
 	padding-top: 27px;
   }
-  .site-branding, .main-navigation {
-      -webkit-flex: 1 50%;
-      -moz-flex: 1 50%;
-      -ms-flex: 1 50%;
-      flex: 1 50%;
-  }
-
 }
 @media screen and (min-width: 60em) {
 
@@ -2710,6 +2703,12 @@ div.sharedaddy div.sd-block {
   .main-navigation ul ul ul li a,
   .main-navigation ul ul ul ul li a {
     padding-left: 5px;
+  }
+  .site-branding, .main-navigation {
+      -webkit-flex: 1 50%;
+      -moz-flex: 1 50%;
+      -ms-flex: 1 50%;
+      flex: 1 50%;
   }
 }
 
