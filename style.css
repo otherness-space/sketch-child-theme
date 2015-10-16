@@ -2363,7 +2363,8 @@ div.sharedaddy div.sd-block {
 /* —————————————————————placeholder landmark———————————————————————————————— */
 /* —————————————————————placeholder landmark———————————————————————————————— */
 
-/* Media Queries */
+/* Default Media Queries */
+
 @media screen and (max-width: 50em) {
 	.jetpack-portfolio-shortcode .portfolio-entry {
 		width: 100% !important;
@@ -2597,26 +2598,11 @@ div.sharedaddy div.sd-block {
 
 @media screen and (min-width: 35em) {
   .site-branding {
-  	max-width: none;
-    -webkit-flex: 1 100%;
-    -moz-flex: 1 100%;
-    -ms-flex: 1 100%;
-    flex: 1 100%;
+  	max-width: 80%;
   }
   .has-site-logo .site-title {
 	max-width: 60%;
   }
-
-}
-
-@media screen and ( min-width: 400px) {
-    .site-branding, .main-navigation {
-           -webkit-flex: 1 100%;
-           -moz-flex: 1 100%;
-           -ms-flex: 1 100%;
-           flex: 1 100%;
-           left: 0;
-     }
 }
 /* This ensures most tablet-sized devices will see the toggle menu */
 @media screen and ( min-width: 1281px ) {
@@ -2641,10 +2627,9 @@ div.sharedaddy div.sd-block {
     font-size: 0.8125em;
     line-height: 2.09231em;
     clear: none;
-    float: none;
-    max-width: none;
+    float: right;
+    max-width: 50%;
     text-align: right;
-    right: 0;
   }
   .main-navigation ul:first-child {
 	  display: block;
@@ -2705,13 +2690,10 @@ div.sharedaddy div.sd-block {
   .main-navigation ul ul ul ul li a {
     padding-left: 5px;
   }
-  .site-branding, .main-navigation {
-      -webkit-flex: 1 50%;
-      -moz-flex: 1 50%;
-      -ms-flex: 1 50%;
-      flex: 1 50%;
-  }
 }
+
+/* End Default Media Queries */
+
 
 /* —————————————————————placeholder landmark———————————————————————————————— */
 
